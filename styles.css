@@ -1,0 +1,426 @@
+body {
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+section {
+  height: auto;
+}
+
+/* MENU */
+
+#title {
+  width: 100%;
+  height: auto;
+  background-color: #1A1C20;
+}
+
+/* Navigation */
+
+.menu {
+  background-color: #F0A500;
+}
+
+.myname {
+  padding-left: 4%;
+}
+
+.logo {
+  width: 25px;
+  margin: 0 10px 5px 20px;
+}
+
+.icon {
+  width: 35px;
+  position: absolute;
+  right: 5%;
+}
+
+.menu-items {
+  padding-right: 70px;
+}
+
+.nav-link {
+  color: #1A1C20;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 5px 50px 0 0;
+  text-align: left;
+}
+
+li .nav-item {
+  padding: 0 10px 0 5px;
+}
+
+.nav-item a:hover {
+  color: white;
+  font-weight: 800;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 4% 7% 1%;
+}
+
+/* Main-page */
+
+.tubes {
+  width: 100%;
+  position: absolute;
+  padding: 120px 50px 100px 50px;
+}
+
+.tubes3 {
+  position: absolute;
+  visibility: hidden;
+}
+
+.main-img {
+  width: 60%;
+  margin: 20% 30%;
+}
+
+.designer {
+  width: 60%;
+  margin: 37% 12%;
+}
+
+.up {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 50px;
+  z-index: 1;
+}
+
+/* About section */
+
+p {
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+
+ #about {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.col-lg-9 {
+  padding-top: 30px;
+}
+
+.col-lg-3 {
+  margin: 0;
+  padding: 0;
+}
+
+.ydeco,
+.ydeco2  {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.ydeco3,
+.ydeco4  {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.main-img-sm {
+  width: 90%;
+  padding: 40px 0;
+}
+
+/* About section, cards */
+
+h6 {
+  text-align: center;
+  font-size: 13pt;
+}
+
+.cards {
+  margin: 0 5%;
+  text-align: center;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-body {
+  padding-bottom: 10px;
+}
+
+.progs-row {
+  margin: 0;
+}
+
+.progs {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.skills {
+  margin: auto;
+}
+
+.skill-row {
+  margin: 0;
+}
+
+.skill-icon {
+  width: 60px;
+  text-align: center;
+}
+
+.star-row {
+  padding-left: 5px;
+  margin: 0 0 10% 0;
+  text-align: center;
+}
+
+.star {
+  width: 15px;
+  margin: 10px 1px;
+  text-align: center;
+}
+
+.card .btn {
+  border-radius: 0 0 10px 10px;
+}
+
+
+/* section Work 2D */
+
+#work2d {
+ width: 100%;
+ height: auto;
+ background-color: #1A1C20;
+ position: relative;
+ margin: 0;
+}
+
+.work2d-image {
+  width: 70%;
+  margin: 10px 30px 0;
+}
+
+.skills2d {
+  font-size: 1.9rem;
+  color: white;
+  margin: 0 7%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+/* section Work 3D */
+
+#work3d {
+ width: 100%;
+ height: auto;
+ background-color: white;
+ position: relative;
+ margin: 0;
+}
+
+.ydeco3 {
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+}
+
+.ydeco4 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.work3d-image {
+  width: 80%;
+  margin: 10px 0 30px 0;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  margin: 5% 0;
+}
+
+/* section Work web */
+
+#web {
+ width: 100%;
+ height: auto;
+ background-color: #1A1C20;
+ position: relative;
+ margin: 0;
+}
+
+.web-card {
+  padding: 5%;
+}
+
+.web-logos {
+  width: 70px;
+  margin: auto;
+}
+
+.web-img {
+  width: 33%;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.web-img-row {
+  text-align: justify;
+}
+
+/* Contacts */
+
+#contacts {
+ width: 100%;
+ height: auto;
+ background-color: #1A1C20;
+ position: relative;
+ margin: 0;
+ padding: 70px 50px 160px 50px;
+}
+
+.contacts {
+  height: 50%;
+}
+
+h1 {
+  color: #1A1C20;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 20px;
+}
+
+h4 {
+  color: #1A1C20;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 3%;
+
+}
+.background {
+  width: 100%;
+  background-color: #F0A500;
+  margin: 0;
+}
+
+.con-icon {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.form-list,
+.cont-list {
+  padding: 0 5%;
+  margin: 0;
+}
+
+/* .triangle {
+  width: 15%;
+  margin: 0;
+} */
+
+/* Breaking points */
+
+ @media (max-width: 1250px) {
+  section {
+    height: auto;
+  }
+  #title {
+    text-align: center;
+  }
+  .tubes {
+    visibility: hidden;
+  }
+  .tubes3 {
+    visibility: hidden;
+  }
+  .main-img {
+    width: 70%;
+    margin: 20% 0;
+  }
+  .designer {
+    text-align: center;
+    padding: 0;
+    width: 70%;
+  }
+  .myname {
+    padding-left: 1%;
+  }
+  .menu-items {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+ #title {
+   text-align: center;
+ }
+ .tubes {
+   visibility: hidden;
+ }
+ .tubes3{
+   width: 70%;
+   visibility: visible;
+   position: absolute;
+   top: 25%;
+   left: 15%;
+ }
+ .main-img {
+   width: 60%;
+   margin: 0;
+   padding: 0 0 150px 0;
+ }
+ .designer {
+   text-align: center;
+   padding: 0;
+   width: 50%;
+   margin: 20% 0 10% 0;
+ }
+ .main-img-sm {
+   visibility: hidden;
+   position: absolute;
+ }
+ .col-lg-9 {
+   padding: 40px 0 0 25px;
+ }
+}
+
+
+@media (min-width: 720px) {
+  .tubes3 {
+    visibility: hidden;
+  }
+}
