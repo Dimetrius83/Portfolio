@@ -65,7 +65,7 @@ li .nav-item {
 /* Containers */
 
 .container-fluid {
-  padding: 4% 7% 1%;
+  padding: 5% 7% 1%;
 }
 
 /* Main-page */
@@ -73,7 +73,12 @@ li .nav-item {
 .tubes {
   width: 100%;
   position: absolute;
-  padding: 120px 50px 100px 50px;
+  padding: 130px 50px 100px 50px;
+}
+
+.tubes2, .tubes22 {
+  width: 100%;
+  position: absolute;
 }
 
 .tubes3 {
@@ -219,6 +224,7 @@ h6 {
 }
 
 .work2d-image {
+  border-radius: 1.5%;
   width: 70%;
   margin: 10px 30px 0;
 }
@@ -240,12 +246,12 @@ h6 {
 #work3d {
  width: 100%;
  height: auto;
- background-color: white;
+ background-color: #1A1C20;
  position: relative;
  margin: 0;
 }
 
-.ydeco3 {
+.ydeco6 {
   width: 100%;
   position: absolute;
   bottom: -1px;
@@ -258,6 +264,7 @@ h6 {
 }
 
 .work3d-image {
+  border-radius: 1.5%;
   width: 80%;
   margin: 10px 0 30px 0;
 }
@@ -282,13 +289,13 @@ h6 {
 #web {
  width: 100%;
  height: auto;
- background-color: #1A1C20;
+ background-color: white;
  position: relative;
  margin: 0;
 }
 
 .web-card {
-  padding: 5%;
+  padding: 5% 5% 10%;
 }
 
 .web-logos {
@@ -304,6 +311,13 @@ h6 {
 
 .web-img-row {
   text-align: justify;
+}
+
+.ydeco5 {
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  padding-top: 5%;
 }
 
 /* Contacts */
@@ -339,6 +353,7 @@ h4 {
   width: 100%;
   background-color: #F0A500;
   margin: 0;
+  padding: 20px 0;
 }
 
 .con-icon {
@@ -352,10 +367,17 @@ h4 {
   margin: 0;
 }
 
-/* .triangle {
-  width: 15%;
-  margin: 0;
-} */
+.triangle {
+  position: absolute;
+  top: 0;
+  left: 9%;
+}
+
+.triangle2 {
+  position: absolute;
+  bottom: 19%;
+  left: 81%;
+}
 
 /* Breaking points */
 
@@ -366,10 +388,7 @@ h4 {
   #title {
     text-align: center;
   }
-  .tubes {
-    visibility: hidden;
-  }
-  .tubes3 {
+  .tubes, .tubes2, .tubes22 {
     visibility: hidden;
   }
   .main-img {
