@@ -1,6 +1,6 @@
 html, body {
-  width:100%;
-  overflow-x:hidden
+  width: 100%;
+  overflow-x: hidden
 }
 
 body {
@@ -162,7 +162,7 @@ h6 {
 }
 
 .cards {
-  margin: 0 5%;
+  margin: 0 3%;
   text-align: center;
 }
 
@@ -172,23 +172,22 @@ h6 {
 
 .card-body {
   padding-bottom: 10px;
-}
-
-.progs-row {
   margin: 0;
 }
 
 .progs {
-  padding: 10px 20px;
-  text-align: center;
+  padding: 10px 10px;
+  margin: auto;
+  align-items: center;
+}
+
+.progs-row {
+  margin: auto;
 }
 
 .skills {
   margin: auto;
-}
-
-.skill-row {
-  margin: 0;
+  padding-bottom: 20px;
 }
 
 .skill-icon {
@@ -212,7 +211,6 @@ h6 {
   border-radius: 0 0 10px 10px;
 }
 
-
 /* section Work 2D */
 
 #work2d {
@@ -230,9 +228,9 @@ h6 {
 }
 
 .skills2d {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color: white;
-  margin: 0 7%;
+  margin: 0 5%;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -344,61 +342,64 @@ h1 {
 
 h4 {
   color: #1A1C20;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-left: 3%;
 
 }
-.background {
-  width: 100%;
-  background-color: #F0A500;
+
+.back-cont {
   margin: 0;
-  padding: 20px 0;
+  width: 85%;
+  position: absolute;
+  top: 16%;
+  left: 8%;
 }
 
 .con-icon {
   width: 20%;
-  margin-right: 10px;
+  margin: 3px 10px;
 }
 
 .form-list,
 .cont-list {
-  padding: 0 5%;
+  padding: 4% 5%;
   margin: 0;
 }
 
-.triangle {
-  position: absolute;
-  top: 0;
-  left: 9%;
-}
-
-.triangle2 {
-  position: absolute;
-  bottom: 19%;
-  left: 81%;
+.icon-list {
+  margin: 0;
+  padding-top: 30px;
 }
 
 /* Breaking points */
 
- @media (max-width: 1250px) {
+ @media (min-width: 994px) and (max-width: 1250px) {
   section {
     height: auto;
   }
   #title {
     text-align: center;
   }
-  .tubes, .tubes2, .tubes22 {
+  .tubes2, .tubes22 {
     visibility: hidden;
   }
+  .tubes {
+    visibility: visible;
+    left: 1%;
+    padding: 145px 140px 80px 30px;
+    margin: auto;
+    width: 107%;
+  }
   .main-img {
-    width: 70%;
-    margin: 20% 0;
+    width: 60%;
+    margin: 30% 0 0 10%;
+    padding:
   }
   .designer {
-    text-align: center;
     padding: 0;
     width: 70%;
+    padding-top: 30px;
   }
   .myname {
     padding-left: 1%;
@@ -406,9 +407,18 @@ h4 {
   .menu-items {
     padding-right: 15px;
   }
+  .back-cont {
+    top: 23%;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .form-group {
+    margin-bottom: 5px;
+  }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 994px) {
  #title {
    text-align: center;
  }
@@ -425,7 +435,7 @@ h4 {
  .main-img {
    width: 60%;
    margin: 0;
-   padding: 0 0 150px 0;
+   padding: 0 0 250px 0;
  }
  .designer {
    text-align: center;
@@ -440,11 +450,98 @@ h4 {
  .col-lg-9 {
    padding: 40px 0 0 25px;
  }
+ .con-icon {
+   width: 10%;
+ }
+ .nav-link {
+   font-size: 1.7rem;
+ }
+ p, h6 {
+   font-size: 1.7rem;
+ }
 }
 
 
-@media (min-width: 720px) {
-  .tubes3 {
+ @media (max-width: 750px) {
+   #title {
+     text-align: center;
+   }
+   .tubes {
+     visibility: hidden;
+   }
+   .tubes3{
+     width: 70%;
+     visibility: visible;
+     position: absolute;
+     top: 15%;
+     left: 15%;
+   }
+   .main-img {
+     width: 60%;
+     margin: 0;
+     padding: 0 0 120px 0;
+   }
+   .designer {
+     text-align: center;
+     padding: 0;
+     width: 50%;
+     margin: 20% 0 10% 0;
+   }
+   .main-img-sm {
+     visibility: hidden;
+     position: absolute;
+   }
+   .col-lg-9 {
+     padding: 40px 0 0 25px;
+   }
+   .back-cont {
+     visibility: hidden;
+   }
+   .background {
+     background-color: #F0A500;
+     width: auto;
+     margin: auto;
+   }
+}
+@media (max-width: 415px) {
+  #title {
+    text-align: center;
+  }
+  .tubes {
     visibility: hidden;
+  }
+  .tubes3{
+    width: 75%;
+    visibility: visible;
+    position: absolute;
+    top: 13%;
+    left: 13%;
+  }
+  .main-img {
+    width: 60%;
+    margin: 0;
+    padding: 0 0 110px 0;
+  }
+  .designer {
+    text-align: center;
+    padding: 0;
+    width: 50%;
+    margin: 20% 0 10% 0;
+  }
+  .main-img-sm {
+    visibility: hidden;
+    position: absolute;
+  }
+  .col-lg-9 {
+    padding: 40px 0 0 25px;
+  }
+  p {
+    font-size: 14pt;
+  }
+  h6, h4 {
+    font-size: 10pt;
+  }
+  #contacts {
+    padding: 20px;
   }
 }
