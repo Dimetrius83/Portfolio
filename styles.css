@@ -416,7 +416,7 @@ h4 {
   .form-group {
     margin-bottom: 5px;
   }
-   .myname {
+  .myname {
     font-size: 16px;
   }
 }
@@ -457,7 +457,7 @@ h4 {
    width: 10%;
  }
  .nav-link {
-   font-size: 1.7rem;
+   font-size: 1rem;
  }
  p, h6 {
    font-size: 1.7rem;
@@ -517,7 +517,7 @@ h4 {
     width: 75%;
     visibility: visible;
     position: absolute;
-    top: 13%;
+    top: 18%;
     left: 13%;
   }
   .main-img {
@@ -544,7 +544,108 @@ h4 {
   h6, h4 {
     font-size: 10pt;
   }
+  .menu {
+    padding: 5px 0 0 10px;
+  }
   #contacts {
     padding: 20px;
+  }
+  .menu {
+    height: auto;
+  }
+  .myname {
+    font-size: 15px;
+  }
+  .skills2d {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  .carousel-item {
+    width: 100%;
+    padding: 0;
+  }
+  .form-group {
+    margin: 0 2%;;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: transparent;
+  }
+  .work2d-image {
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+  }
+  .work3d-image {
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+  }
+}
+@media (max-width: 380px) {
+  #title {
+    text-align: center;
+  }
+  .tubes {
+    visibility: hidden;
+  }
+  .tubes3{
+    width: 75%;
+    visibility: visible;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+  }
+  .menu {
+    height: auto;
+  }
+  .myname {
+    font-size: 15px;
+  }
+  .main-img {
+    width: 60%;
+    margin: 0;
+    padding: 0 0 110px 0;
+  }
+  .designer {
+    text-align: center;
+    padding: 0;
+    width: 50%;
+    margin: 20% 0 10% 0;
+  }
+  .main-img-sm {
+    visibility: hidden;
+    position: absolute;
+  }
+  .skills2d {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  .carousel-item {
+    width: 100%;
+    padding: 0;
+  }
+  .form-group {
+    margin: 0 2%;;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: transparent;
+  }
+  .work2d-image {
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+  }
+  .work3d-image {
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+  }
+  p {
+    font-size: 14pt;
+  }
+  h6, h4 {
+    font-size: 10pt;
   }
 }
