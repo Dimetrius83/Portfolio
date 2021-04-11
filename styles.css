@@ -522,7 +522,6 @@ h4 {
    h4 {
      font-size: 14pt;
      margin: 0;
-     padding-right: 30px;
    }
 
    .skills2d {
@@ -562,7 +561,7 @@ h4 {
     width: 75%;
     visibility: visible;
     position: absolute;
-    top: 16%;
+    top: 15.5%;
     left: 13%;
   }
   .main-img {
@@ -620,7 +619,7 @@ h4 {
     padding: 0;
   }
   .form-group {
-    margin: 0 2%;;
+    margin: 0 2%;
   }
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
@@ -696,7 +695,7 @@ h4 {
     width: 100%;
     margin: auto;
     border-radius: 0;
-  }  
+  }
   .progs {
     padding: 0;
   }
@@ -704,6 +703,8 @@ h4 {
     font-size: 14pt;
   }
   h4 {
-    font-size: 9pt;
+    font-size: 8pt;
+    margin: 0;
+    padding-right: 30px;
   }
 }
